@@ -2,6 +2,10 @@
 body { background: white; } 
 .window { width: 340px; height: 340px; background: #a0d5d3; position: absolute; top: 50%; left: 50%; border-radius: 50%; margin-top: -60px; -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%); border: 10px solid #f8e7dc; overflow: hidden; } 
 .window::before { position: absolute; content: '';-webkit-animation: rotateme 3s infinite linear; animation: rotateme 3s infinite linear; background: url('./audio/wife.jpg'); z-index: 999; border-radius: 50%; left: 0px; bottom: 0px; top: 0px; right: 0px; background-size: 100% 100%; } 
+.window1 { width: 300px; height: 300px; background: #a0d5d3; position: absolute; top: 50%; left: 25%; border-radius: 50%; margin-top: -60px; -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%); border: 10px solid #f8e7dc; overflow: hidden; } 
+.window1::before { position: absolute; content: '';-webkit-animation: rotateme 3s infinite linear; animation: rotateme 3s infinite linear; background: url('./audio/wife.jpg'); z-index: 999; border-radius: 50%; left: 0px; bottom: 0px; top: 0px; right: 0px; background-size: 100% 100%; } 
+.window2 { width: 300px; height: 300px; background: #a0d5d3; position: absolute; top: 50%; left: 75%; border-radius: 50%; margin-top: -60px; -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%); border: 10px solid #f8e7dc; overflow: hidden; } 
+.window2::before { position: absolute; content: '';-webkit-animation: rotateme 3s infinite linear; animation: rotateme 3s infinite linear; background: url('./audio/wife.jpg'); z-index: 999; border-radius: 50%; left: 0px; bottom: 0px; top: 0px; right: 0px; background-size: 100% 100%; } 
 .santa { position: absolute; left: 50%; bottom: 0; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); } 
 .santa .body { width: 190px; height: 210px; background: #de2f32; position: relative; border-radius: 50%; top: 0; -webkit-animation: bodyLaugh 4s linear infinite; -moz-animation: bodyLaugh 4s linear infinite; -ms-animation: bodyLaugh 4s linear infinite; -o-animation: bodyLaugh 4s linear infinite; animation: bodyLaugh 4s linear infinite; -webkit-transform: translateY(50%); -moz-transform: translateY(50%); -ms-transform: translateY(50%); -o-transform: translateY(50%); transform: translateY(50%); } 
 .santa .body:before { content: " "; width: 7px; height: 7px; background: #f7be10; border-radius: 50%; position: absolute; top: 35%; left: 50%; -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%); box-shadow: 0px -18px 0px #f7be10, 0px 18px 0px #f7be10; } 
@@ -243,7 +247,8 @@ body { padding-bottom:20px;position: relative;}
     .message h1{font-size: 55px;margin-top: 0;}
     .window{width: 300px;height: 300px;top: 45%;}
     .main_m{width: 50%;}
-
+    .window1{width: 100px !important;height: 100px !important;top: 25% !important;}
+    .window2{width: 100px !important;height: 100px !important;top: 25% !important;}
 }
 
 @keyframes rotateme {
@@ -278,3 +283,4 @@ body { padding-bottom:20px;position: relative;}
     }
 
 }
+
